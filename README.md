@@ -1,1 +1,1 @@
-Eech config has an individual branch for now
+Each config has an individual branch for now
