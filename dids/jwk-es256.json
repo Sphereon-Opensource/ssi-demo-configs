@@ -1,10 +1,10 @@
 {
   "privateKeyHex": "f4446e5eb1201a7769cb35f02f24b06c0ac3ff49eb085f8562f06fc6c42e45e2",
-  "did": "did:jwk:eyJhbGciOiJFUzI1NiIsInVzZSI6InNpZyIsImt0eSI6IkVDIiwiY3J2IjoiUC0yNTYiLCJ4IjoiQW5RV0hxZm5iaWpRUUZka3pubWt1NVJTbkNXb0FUTW53bkZPTE11TnBIVSIsInkiOiJQVWo1TnYwZjJ3RU14bFAtVXp0NWVrbjNROUFLMWVrY2t2YnJnMzBjX0ZVIn0",
+  "did.bak": "",
   "createArgs": {
     "provider": "did:jwk",
     "options": {
-      "kid": "03f9478ffb86fb6142795d4da9b2653c55d7d6bdb3e82a551e1f0bd022b7bf9768",
+      "kid": "auth-key-es256",
       "type": "Secp256r1",
       "keyType": "Secp256r1"
     }
