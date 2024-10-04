@@ -1,6 +1,6 @@
 {
   "privateKeyHex": "f4446e5eb1201a7769cb35f02f24b06c0ac3ff49eb085f8562f06fc6c42e27a2",
-  "did.bak": "",
+  "did": "did:jwk:eyJhbGciOiJFUzI1NiIsInVzZSI6InNpZyIsImt0eSI6IkVDIiwiY3J2IjoiUC0yNTYiLCJ4IjoiVE5yc181YkdPTmJITnJiSnRlMVh2OVhLaUNHRlFud01lZUNNdF8wa2FEbyIsInkiOiJjTXhGVFpzTnhZSmJkRy1VTEtyQ2lnbVFseVh4RWFWb2pMSXhqU1NnSTFrIn0",
   "createArgs": {
     "provider": "did:jwk",
     "options": {
