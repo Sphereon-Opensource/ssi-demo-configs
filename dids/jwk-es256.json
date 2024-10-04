@@ -1,5 +1,5 @@
 {
-  "privateKeyHex": "f4446e5eb1201a7769cb35f02f24b06c0ac3ff49eb085f8562f06fc6c42e88fb",
+  "privateKeyHex": "f4446e5eb1201a7769cb35f02f24b06c0ac3ff49eb085f8562f06fc6c42e0000",
   "did.bak": "",
   "createArgs": {
     "provider": "did:jwk",
