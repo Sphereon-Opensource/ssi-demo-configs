@@ -1,0 +1,33 @@
+{
+  "definitionId": "LegalPersonPID",
+  "correlationId": "https://agent.intertrust.demo.sphereon.com/oid4vci",
+  "issuerOpts": {
+    "iss": "https://agent.intertrust.demo.sphereon.com/oid4vci",
+    "didOpts": {
+      "checkLinkedDomains": "if_present",
+      "identifierOpts": {
+        "clientIdScheme": "did",
+        "method": "did",
+        "identifier": "did:web:agent.intertrust.home.sphereon.com",
+        "kid": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1",
+        "kmsKeyRef": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1"
+      },
+      "idOpts": {
+        "clientIdScheme": "did",
+        "method": "did",
+        "identifier": "did:web:agent.intertrust.home.sphereon.com",
+        "kid": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1",
+        "kmsKeyRef": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1",
+        "offlineWhenNoDIDRegistered": true
+      }
+    },
+    "idOpts": {
+      "clientIdScheme": "did",
+      "method": "did",
+      "identifier": "did:web:agent.intertrust.home.sphereon.com",
+      "kid": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1",
+      "kmsKeyRef": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1",
+      "offlineWhenNoDIDRegistered": true
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "title": "EWC - Legal PID",
+  "description": "Schema for Legal PID - EWC WP3",
+  "type": "object",
+  "properties": {
+    "issuance_date": {
+      "description": "Date and possibly time of issuance",
+      "type": "string",
+      "format": "date-time"
+    },
+    "expiry_date": {
+      "description": "Date and possibly time of ODI expiration",
+      "type": "string",
+      "format": "date-time"
+    },
+    "authentic_source_id": {
+      "description": "ODI Id of the issuing authority. (Business register identifier for BRIS)",
+      "type": "string"
+    },
+    "authentic_source_name": {
+      "description": "Name of issuer from the MS that issued the ODI instance",
+      "type": "string"
+    },
+    "credentialSubject": {
+      "description": "Attributes representing a Legal PID",
+      "type": "object",
+      "properties": {
+        "legal_person_id": {
+          "description": "Unique id for organisation according to EUID",
+          "type": "string"
+        },
+        "legal_person_name": {
+          "description": "Legal person name",
+          "type": "string"
+        }
+      },
+      "required": ["legal_person_id", "legal_person_name"]
+    },
+    "credentialStatus": {
+      "description": "Defines suspension and/or revocation details for the issued credential. Further redefined by the type extension",
+      "type": "object",
+      "properties": {
+        "id": {
+          "description": "Exact identity for the credential status",
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "description": "Defines the revocation type extension",
+          "type": "string"
+        }
+      },
+      "required": ["id", "type"]
+    }
+  },
+  "required": [
+    "credentialSubject",
+    "credentialStatus",
+    "issuance_date",
+    "expiry_date"
+  ]
+}

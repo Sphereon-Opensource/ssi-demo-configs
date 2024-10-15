@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "LegalPersonPID"
+  ],
+  "issuer": "{{issuing_authority}}",
+  "issuanceDate": "{{issuance_date}}",
+  "expirationDate": "{{expiry_date}}",
+  "credentialSubject": {
+    "type": [
+      "LegalPerson"
+    ],
+    "legal_person_id": "{{credentialSubject.legal_person_id}}",
+    "legal_person_name": "{{credentialSubject.legal_person_name}}"
+  },
+  "issuing_authority": "NL",
+  "issuing_authority_id": "NL",
+  "issuing_country": "NL",
+  "issuing_jurisdiction": "NL",
+  "authentic_source_id": "{{authentic_source_id}}",
+  "authentic_source_name": "{{authentic_source_name}}",
+  "credentialStatus": {
+    "type": "StatusList2021"
+  }
+}

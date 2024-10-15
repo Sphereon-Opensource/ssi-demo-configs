@@ -1,0 +1,89 @@
+{
+  "correlationId": "https://agent.intertrust.demo.sphereon.com/oid4vci",
+  "overwriteExisting": true,
+  "metadata": {
+    "credential_issuer": "https://agent.intertrust.demo.sphereon.com/oid4vci",
+    "credential_endpoint": "https://agent.intertrust.demo.sphereon.com/oid4vci/credentials",
+    "display": [
+      {
+        "name": "EWC",
+        "description": "EWC demo"
+      }
+    ],
+    "credential_configurations_supported": {
+      "LegalPersonPID": {
+        "format": "jwt_vc_json",
+        "cryptographic_binding_methods_supported": [
+          "did:jwk"
+        ],
+        "cryptographic_suites_supported": [
+          "ES256"
+        ],
+        "display": [
+          {
+            "name": "LegalPersonPID",
+            "description": "Legal Person Credential",
+            "background_color": "rgba(0, 0, 0, 0.2)",
+            "text_color": "#FBFBFB",
+            "logo": {
+              "url": "https://i.ibb.co/pyZpF8m/Belastingdienst.png",
+              "alt_text": "Belastingdienst logo"
+            },
+            "background_image": {
+              "url": "https://i.ibb.co/jWF45Xw/grant-ritchie.png",
+              "alt_text": "Skyscrapers background"
+            }
+          },
+          {
+            "locale": "en-US",
+            "name": "LegalPersonPID",
+            "description": "Legal Person Credential",
+            "background_color": "rgba(0, 0, 0, 0.2)",
+            "text_color": "#FBFBFB",
+            "logo": {
+              "url": "https://i.ibb.co/pyZpF8m/Belastingdienst.png",
+              "alt_text": "Belastingdienst logo"
+            },
+            "background_image": {
+              "url": "https://i.ibb.co/jWF45Xw/grant-ritchie.png",
+              "alt_text": "Skyscrapers background"
+            }
+          },
+          {
+            "locale": "nl-NL",
+            "name": "LegalPersonPID",
+            "description": "Legal Person Credential",
+            "background_color": "rgba(0, 0, 0, 0.2)",
+            "text_color": "#FBFBFB",
+            "logo": {
+              "url": "https://i.ibb.co/pyZpF8m/Belastingdienst.png",
+              "alt_text": "Belastingdienst logo"
+            },
+            "background_image": {
+              "url": "https://i.ibb.co/jWF45Xw/grant-ritchie.png",
+              "alt_text": "Skyscrapers background"
+            }
+          }
+        ],
+        "credential_definition": {
+          "type": [
+            "VerifiableCredential",
+            "LegalPersonPID"
+          ]
+        }
+      }
+    },
+    "credential_supplier_config": {
+      "templates_base_dir": "templates",
+      "template_mappings": [
+        {
+          "credential_types": [
+            "LegalPersonPID"
+          ],
+          "template_path": "LegalPersonPID.hbs.json",
+          "format": "jwt_vc_json"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Label",
+      "text": "Legal Person PID"
+    },
+    {
+      "type": "Group",
+      "label": "Dates",
+      "elements": [
+        {
+          "type": "Control",
+          "label": "Issuance date",
+          "scope": "#/properties/issuance_date"
+        },
+        {
+          "type": "Control",
+          "label": "Expiry date",
+          "scope": "#/properties/expiry_date"
+        }
+      ]
+    },
+    {
+      "type": "Group",
+      "label": "Authentic Source",
+      "elements": [
+        {
+          "type": "Control",
+          "label": "Authentic source ID",
+          "scope": "#/properties/authentic_source_id"
+        },
+        {
+          "type": "Control",
+          "label": "Authentic source name",
+          "scope": "#/properties/authentic_source_name"
+        }
+      ]
+    },
+    {
+      "type": "Group",
+      "label": "Credential Subject",
+      "elements": [
+        {
+          "type": "Control",
+          "label": "Legal person ID",
+          "scope": "#/properties/credentialSubject/properties/legal_person_id"
+        },
+        {
+          "type": "Control",
+          "label": "Legal person name",
+          "scope": "#/properties/credentialSubject/properties/legal_person_name"
+        }
+      ]
+    },
+    {
+      "type": "Group",
+      "label": "Credential Status",
+      "elements": [
+        {
+          "type": "Control",
+          "label": "Credential status ID",
+          "scope": "#/properties/credentialStatus/properties/id"
+        },
+        {
+          "type": "Control",
+          "label": "Credential status type",
+          "scope": "#/properties/credentialStatus/properties/type"
+        }
+      ]
+    }
+  ]
+}
