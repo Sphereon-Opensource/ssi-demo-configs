@@ -9,15 +9,15 @@
         "clientIdScheme": "did",
         "method": "did",
         "identifier": "did:web:agent.intertrust.home.sphereon.com",
-        "kid": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1",
-        "kmsKeyRef": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1"
+        "kid": "034073922a9ebc1d871ec3a21d9adfe6e68795467282671c0f464322658879a942",
+        "kmsKeyRef": "034073922a9ebc1d871ec3a21d9adfe6e68795467282671c0f464322658879a942"
       },
       "idOpts": {
         "clientIdScheme": "did",
         "method": "did",
         "identifier": "did:web:agent.intertrust.home.sphereon.com",
-        "kid": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1",
-        "kmsKeyRef": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1",
+        "kid": "034073922a9ebc1d871ec3a21d9adfe6e68795467282671c0f464322658879a942",
+        "kmsKeyRef": "034073922a9ebc1d871ec3a21d9adfe6e68795467282671c0f464322658879a942",
         "offlineWhenNoDIDRegistered": true
       }
     },
@@ -25,8 +25,8 @@
       "clientIdScheme": "did",
       "method": "did",
       "identifier": "did:web:agent.intertrust.home.sphereon.com",
-      "kid": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1",
-      "kmsKeyRef": "036219e9724612d7f153b80d37bd6f2962bc1ef5b110a8c6e659602e672fa12bd1",
+      "kid": "034073922a9ebc1d871ec3a21d9adfe6e68795467282671c0f464322658879a942",
+      "kmsKeyRef": "034073922a9ebc1d871ec3a21d9adfe6e68795467282671c0f464322658879a942",
       "offlineWhenNoDIDRegistered": true
     }
   }
