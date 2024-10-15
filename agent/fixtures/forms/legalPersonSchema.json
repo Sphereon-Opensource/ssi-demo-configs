@@ -96,10 +96,6 @@
   },
   "required": [
     "credentialSubject",
-    "credentialStatus",
-    "issuing_authority",
-    "issuing_authority_id",
-    "issuing_country",
     "issuance_date",
     "expiry_date"
   ]
