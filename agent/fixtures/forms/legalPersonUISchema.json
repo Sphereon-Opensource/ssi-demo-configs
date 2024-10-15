@@ -52,22 +52,6 @@
           "scope": "#/properties/credentialSubject/properties/legal_person_name"
         }
       ]
-    },
-    {
-      "type": "Group",
-      "label": "Credential Status",
-      "elements": [
-        {
-          "type": "Control",
-          "label": "Credential status ID",
-          "scope": "#/properties/credentialStatus/properties/id"
-        },
-        {
-          "type": "Control",
-          "label": "Credential status type",
-          "scope": "#/properties/credentialStatus/properties/type"
-        }
-      ]
     }
   ]
 }

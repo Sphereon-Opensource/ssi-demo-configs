@@ -6,14 +6,15 @@
     "credential_endpoint": "https://agent.intertrust.demo.sphereon.com/oid4vci/credentials",
     "display": [
       {
-        "name": "EWC",
-        "description": "EWC demo"
+        "name": "Intertrust",
+        "description": "Intertrust demo"
       }
     ],
     "credential_configurations_supported": {
       "LegalPersonPID": {
         "format": "jwt_vc_json",
         "cryptographic_binding_methods_supported": [
+          "did:web",
           "did:jwk"
         ],
         "cryptographic_suites_supported": [

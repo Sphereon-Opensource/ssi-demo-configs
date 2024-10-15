@@ -35,27 +35,10 @@
         }
       },
       "required": ["legal_person_id", "legal_person_name"]
-    },
-    "credentialStatus": {
-      "description": "Defines suspension and/or revocation details for the issued credential. Further redefined by the type extension",
-      "type": "object",
-      "properties": {
-        "id": {
-          "description": "Exact identity for the credential status",
-          "type": "string",
-          "format": "uri"
-        },
-        "type": {
-          "description": "Defines the revocation type extension",
-          "type": "string"
-        }
-      },
-      "required": ["id", "type"]
     }
   },
   "required": [
     "credentialSubject",
-    "credentialStatus",
     "issuance_date",
     "expiry_date"
   ]
