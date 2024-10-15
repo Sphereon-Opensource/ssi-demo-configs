@@ -18,7 +18,9 @@
           "did:jwk"
         ],
         "cryptographic_suites_supported": [
-          "ES256"
+          "ES256",
+          "ES256K",
+          "EdDSA"
         ],
         "display": [
           {
