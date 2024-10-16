@@ -9,15 +9,15 @@
         "clientIdScheme": "did",
         "method": "did",
         "identifier": "did:web:agent.ubo.demo.sphereon.com",
-        "kid": "033ab2616b58d5f4b71b49916ffdc26f12fcad55b892acc62a4246a89751cf8889",
-        "kmsKeyRef": "033ab2616b58d5f4b71b49916ffdc26f12fcad55b892acc62a4246a89751cf8889"
+        "kid": "03dc165f316f087de2d6a58fb6ea81f92571eb1a44fe86195f93b68b8b60c06ae1",
+        "kmsKeyRef": "03dc165f316f087de2d6a58fb6ea81f92571eb1a44fe86195f93b68b8b60c06ae1"
       },
       "idOpts": {
         "clientIdScheme": "did",
         "method": "did",
         "identifier": "did:web:agent.ubo.demo.sphereon.com",
-        "kid": "033ab2616b58d5f4b71b49916ffdc26f12fcad55b892acc62a4246a89751cf8889",
-        "kmsKeyRef": "033ab2616b58d5f4b71b49916ffdc26f12fcad55b892acc62a4246a89751cf8889",
+        "kid": "03dc165f316f087de2d6a58fb6ea81f92571eb1a44fe86195f93b68b8b60c06ae1",
+        "kmsKeyRef": "03dc165f316f087de2d6a58fb6ea81f92571eb1a44fe86195f93b68b8b60c06ae1",
         "offlineWhenNoDIDRegistered": true
       }
     },
@@ -25,8 +25,8 @@
       "clientIdScheme": "did",
       "method": "did",
       "identifier": "did:web:agent.ubo.demo.sphereon.com",
-      "kid": "033ab2616b58d5f4b71b49916ffdc26f12fcad55b892acc62a4246a89751cf8889",
-      "kmsKeyRef": "033ab2616b58d5f4b71b49916ffdc26f12fcad55b892acc62a4246a89751cf8889",
+      "kid": "03dc165f316f087de2d6a58fb6ea81f92571eb1a44fe86195f93b68b8b60c06ae1",
+      "kmsKeyRef": "03dc165f316f087de2d6a58fb6ea81f92571eb1a44fe86195f93b68b8b60c06ae1",
       "offlineWhenNoDIDRegistered": true
     }
   }
