@@ -1,0 +1,33 @@
+{
+  "definitionId": "LegalPersonPID",
+  "correlationId": "https://agent.bosch.demo.sphereon.com/oid4vci",
+  "issuerOpts": {
+    "iss": "https://agent.bosch.demo.sphereon.com/oid4vci",
+    "didOpts": {
+      "checkLinkedDomains": "if_present",
+      "identifierOpts": {
+        "clientIdScheme": "did",
+        "method": "did",
+        "identifier": "did:web:agent.bosch.demo.sphereon.com",
+        "kid": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc",
+        "kmsKeyRef": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc"
+      },
+      "idOpts": {
+        "clientIdScheme": "did",
+        "method": "did",
+        "identifier": "did:web:agent.bosch.demo.sphereon.com",
+        "kid": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc",
+        "kmsKeyRef": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc",
+        "offlineWhenNoDIDRegistered": true
+      }
+    },
+    "idOpts": {
+      "clientIdScheme": "did",
+      "method": "did",
+      "identifier": "did:web:agent.bosch.demo.sphereon.com",
+      "kid": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc",
+      "kmsKeyRef": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc",
+      "offlineWhenNoDIDRegistered": true
+    }
+  }
+}
