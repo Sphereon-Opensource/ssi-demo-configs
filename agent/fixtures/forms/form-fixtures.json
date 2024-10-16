@@ -1,0 +1,31 @@
+{
+  "entityType": "VC",
+  "formName": "CredentialIssuanceWizard",
+  "formDescription": "Form for Legal Person Credential Issuance",
+  "formId": "credentialIssuanceWizardLegalPerson",
+  "metadataSets": [
+    {
+      "name": "LegalPersonPID",
+      "keys": [
+        {
+          "key": "credentialType",
+          "valueType": "Text",
+          "values": [
+            "VerifiableCredential",
+            "LegalPersonPID"
+          ]
+        }
+      ],
+      "schemas": [
+        {
+          "schemaType": "UI_Form",
+          "schemaFile": "legalPersonUISchema.json"
+        },
+        {
+          "schemaType": "Data",
+          "schemaFile": "legalPersonSchema.json"
+        }
+      ]
+    }
+  ]
+}
