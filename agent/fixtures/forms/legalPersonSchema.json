@@ -86,6 +86,7 @@
     }
   },
   "required": [
+    "@context",
     "credentialSubject",
     "credentialStatus",
     "issuing_authority",
