@@ -7,13 +7,44 @@
     "verifierUrl": "https://agent.ubo.demo.sphereon.com"
   },
   "pages": {
+    "landingPage": {
+      "logo": {
+        "src": "image_4.svg",
+        "alt": "background",
+        "height": "100%"
+      },
+      "mobile": {
+        "logo": {
+          "src": "image_4.svg",
+          "alt": "background",
+          "width": "100%"
+        }
+      },
+      "pageTitle": "funke_landing_page_title",
+      "text": "funke_landing_page_description",
+      "presentationDefinitions": [
+        {
+          "id": "LegalPersonPID",
+          "name": "Presentation definition naam",
+          "route": "https://account.banqup.demo.sphereon.com",
+          "description": "Purpose",
+          "backgroundColor": "grey",
+          "backgroundImage": "https://i.ibb.co/xShshGk/pd-bgf-min.png",
+          "logo": {
+            "src": "https://www.iata.org/contentassets/3e83770142a040d688e269bb2f709b7b/iata-logo-header.svg?height=127&rmode=crop&v=20240116100112",
+            "alt_text": "funke pd 2",
+            "width": 120,
+            "height": 120
+          }
+        }
+      ]
+    },
     "verifyRequest": {
       "primaryButtonResourceId": "label_continue",
       "primaryButtonManualResourceId": "label_continue",
       "logo": {
-        "src": "luke-porter-UGX2qdjdKkw-unsplash_1.png",
+        "src": "image_4.svg",
         "alt": "background",
-        "width": "1140px",
         "height": "100%"
       },
       "rightPaneLeftPane": {
@@ -32,19 +63,19 @@
             "height": "50%"
           },
           "topTitle": {
-            "value": "vismayuki_verify_top_title",
+            "value": "funke_verify_top_title",
             "style": {
               "display": "none"
             }
           },
-          "topDescription": "vismayuki_verify_top_description",
+          "topDescription": "funke_verify_top_description",
           "bottomText": {
             "fontColor": "#424242",
             "className": "removeMarginTop",
             "pStyle": {
               "textAlign": "center"
             },
-            "credential_verify_request_right_pane_bottom_paragraph": "vismayuki_verify_bottom_description"
+            "credential_verify_request_right_pane_bottom_paragraph": "funke_verify_bottom_description"
           },
           "width": 200,
           "marginTop": "0",
@@ -52,29 +83,50 @@
         }
       }
     },
+    "verifyShare": {
+      "topTitle": "sharing_data_confirm_right_pane_title",
+      "topDescription": "sharing_data_confirm_right_pane_paragraph",
+      "logo": {
+        "src": "image_4.svg",
+        "alt": "background",
+        "height": "100%"
+      }
+    },
     "shareSuccess": {
       "sideImage": {
-        "src": "luke-porter-UGX2qdjdKkw-unsplash_1.png",
+        "src": "image_4.svg",
         "alt": "background",
         "height": "100%"
       },
       "photoRight": "undraw_messenger_re_8bky_grey.svg",
-      "topTitle": "vismayuki_share_success_top_title",
-      "topDescription": "vismayuki_share_success_top_description",
-      "buttonCaption": "vismayuki_share_success_button_caption"
+      "topTitle": "funke_share_success_top_title",
+      "topDescription": "funke_share_success_top_description",
+      "buttonCaption": "funke_share_success_button_caption"
     }
   },
   "routes": [
     {
       "id": "default",
-      "vpDefinitionId": "ubo",
+      "vpDefinitionId": "LegalPersonPID",
       "steps": [
+        {
+          "id": "landingPage",
+          "operation": "navigate",
+          "path": "/landingvp",
+          "nextId": "verifyRequest",
+          "isDefaultRoute": true
+        },
         {
           "id": "verifyRequest",
           "operation": "navigate",
           "path": "/credentials/verify/request",
-          "nextId": "shareSuccess",
-          "isDefaultRoute": true
+          "nextId": "verifyShare"
+        },
+        {
+          "id": "verifyShare",
+          "operation": "navigate",
+          "path": "/credentials/verify/share",
+          "nextId": "shareSuccess"
         },
         {
           "id": "shareSuccess",
@@ -85,7 +137,7 @@
         {
           "id": "backToHome",
           "operation": "navigate",
-          "path": "https://rp.vismayuki.demo.sphereon.com/"
+          "path": "https://rp.ubo.demo.sphereon.com/"
         }
       ]
     }
