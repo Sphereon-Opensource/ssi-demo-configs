@@ -5,20 +5,11 @@
   "properties": {
     "@context": {
       "description": "The JSON-LD context.",
-      "type": ["string", "array"],
-      "oneOf": [
-        {
-          "type": "string",
-          "const": "https://www.w3.org/2018/credentials/v1"
-        },
-        {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "const": ["https://www.w3.org/2018/credentials/v1"]
-        }
-      ]
+      "type": ["array"],
+      "items": {
+        "type": "string"
+      },
+      "const": ["https://www.w3.org/2018/credentials/v1"]
     },
     "issuing_authority": {
       "description": "Name of issuer from the MS that issued the ODI instance",
@@ -96,6 +87,10 @@
   },
   "required": [
     "credentialSubject",
+    "credentialStatus",
+    "issuing_authority",
+    "issuing_authority_id",
+    "issuing_country",
     "issuance_date",
     "expiry_date"
   ]
