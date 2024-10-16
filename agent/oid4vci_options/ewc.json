@@ -9,15 +9,15 @@
         "clientIdScheme": "did",
         "method": "did",
         "identifier": "did:web:agent.bosch.demo.sphereon.com",
-        "kid": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc",
-        "kmsKeyRef": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc"
+        "kid": "0295458f9f537a6c952d63b7fc9fbd44c9b8c81df12311b56117063bb0e6dacc3c",
+        "kmsKeyRef": "0295458f9f537a6c952d63b7fc9fbd44c9b8c81df12311b56117063bb0e6dacc3c"
       },
       "idOpts": {
         "clientIdScheme": "did",
         "method": "did",
         "identifier": "did:web:agent.bosch.demo.sphereon.com",
-        "kid": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc",
-        "kmsKeyRef": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc",
+        "kid": "0295458f9f537a6c952d63b7fc9fbd44c9b8c81df12311b56117063bb0e6dacc3c",
+        "kmsKeyRef": "0295458f9f537a6c952d63b7fc9fbd44c9b8c81df12311b56117063bb0e6dacc3c",
         "offlineWhenNoDIDRegistered": true
       }
     },
@@ -25,8 +25,8 @@
       "clientIdScheme": "did",
       "method": "did",
       "identifier": "did:web:agent.bosch.demo.sphereon.com",
-      "kid": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc",
-      "kmsKeyRef": "03fc9508d014741e54fecbf301f80dc7836adf0a3ecbf2edc6c102523ffb4210cc",
+      "kid": "0295458f9f537a6c952d63b7fc9fbd44c9b8c81df12311b56117063bb0e6dacc3c",
+      "kmsKeyRef": "0295458f9f537a6c952d63b7fc9fbd44c9b8c81df12311b56117063bb0e6dacc3c",
       "offlineWhenNoDIDRegistered": true
     }
   }
