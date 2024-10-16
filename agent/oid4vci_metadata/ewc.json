@@ -6,8 +6,8 @@
     "credential_endpoint": "https://agent.ubo.demo.sphereon.com/oid4vci/credentials",
     "display": [
       {
-        "name": "Aegon",
-        "description": "Aegon demo"
+        "name": "UBO",
+        "description": "UBO demo"
       }
     ],
     "credential_configurations_supported": {
