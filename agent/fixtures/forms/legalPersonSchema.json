@@ -79,7 +79,8 @@
         },
         "type": {
           "description": "Defines the revocation type extension",
-          "type": "string"
+          "type": "string",
+          "const": "StatusList2021"
         }
       },
       "required": ["type"]
