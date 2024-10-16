@@ -1,0 +1,51 @@
+{
+  "definitionId": "default",
+  "rpOpts": {
+    "supportedVersions": [200, 180, 110],
+    "responseMode": "direct_post",
+    "clientMetadataOpts": {
+      "idTokenSigningAlgValuesSupported": ["ES256"],
+      "requestObjectSigningAlgValuesSupported": ["ES256"],
+      "responseTypesSupported": ["id_token", "vp_token"],
+      "client_name": "UBO",
+      "vpFormatsSupported": {
+        "vc+sd-jwt": {
+          "sd-jwt_alg_values": [
+            "ES256"
+          ],
+          "kb-jwt_alg_values": [
+            "ES256"
+          ]
+        },
+        "jwt_vc_json": {
+          "alg": ["ES256"]
+        },
+        "jwt_vp_json": {
+          "alg": ["ES256"]
+        },
+        "jwt_vc": {
+          "alg": ["ES256"]
+        },
+        "jwt_vp": {
+          "alg": ["ES256"]
+        }
+      },
+      "scopesSupported": ["openid did_authn"],
+      "subjectTypesSupported": ["pairwise"],
+      "subject_syntax_types_supported": ["did:web"],
+      "passBy": "VALUE"
+    },
+    "didOpts": {
+      "checkLinkedDomains": "if_present"
+    },
+    "identifierOpts": {
+      "idOpts": {
+        "clientIdScheme": "did",
+        "method": "did",
+        "identifier": "did:web:agent.wallet.ubo.demo.sphereon.com",
+        "kid": "033ab2616b58d5f4b71b49916ffdc26f12fcad55b892acc62a4246a89751cf8889",
+        "kmsKeyRef": "033ab2616b58d5f4b71b49916ffdc26f12fcad55b892acc62a4246a89751cf8889"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "LegalPersonPID",
+  "purpose": "Legal Person PID",
+  "input_descriptors": [
+    {
+      "id": "0706cff1-0234-4f35-9d21-251668a60959",
+      "name": "Verificatie",
+      "purpose": "We need you legal person PID",
+      "schema": [
+        {
+          "uri": "LegalPersonPID"
+        }
+      ]
+    }
+  ]
+}
