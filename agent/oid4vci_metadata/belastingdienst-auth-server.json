@@ -1,0 +1,13 @@
+{
+  "correlationId": "https://agent.wallet.bd.demo.sphereon.com/oid4vci",
+  "overwriteExisting": true,
+  "metadataType": "authorizationServer",
+  "metadata": {
+    "issuer": "https://agent.wallet.bd.demo.sphereon.com/oid4vci",
+    "token_endpoint_auth_methods_supported": [
+      "none"
+    ],
+    "scopes_supported": [],
+    "revocation_endpoint_auth_methods_supported": []
+  }
+}
