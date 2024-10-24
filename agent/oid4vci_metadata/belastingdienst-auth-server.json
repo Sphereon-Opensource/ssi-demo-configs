@@ -4,7 +4,7 @@
   "metadataType": "authorizationServer",
   "metadata": {
     "issuer": "https://agent.wallet.bd.demo.sphereon.com/oid4vci",
-    "token_endpoint": "https://not-enabled",
+    "token_endpoint": "https://agent.wallet.bd.demo.sphereon.com/oid4vci/token",
     "token_endpoint_auth_methods_supported": [
       "none"
     ],
