@@ -8,6 +8,7 @@
       "none"
     ],
     "scopes_supported": [],
-    "revocation_endpoint_auth_methods_supported": []
+    "revocation_endpoint_auth_methods_supported": [],
+    "jwks_uri": "https://agent.wallet.bd.demo.sphereon.com/.well-known/jwks.json"
   }
 }
