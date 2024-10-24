@@ -54,11 +54,6 @@
           },
           {
             "path": [
-              "$.gender"
-            ]
-          },
-          {
-            "path": [
               "$.place_of_birth"
             ]
           },
