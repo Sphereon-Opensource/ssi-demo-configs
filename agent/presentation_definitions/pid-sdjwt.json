@@ -14,18 +14,9 @@
   },
   "input_descriptors": [
     {
-      "id": "id_example_sd-jwt_for_funke_conformance_test",
-      "format": {
-        "vc+sd-jwt": {
-          "sd-jwt_alg_values": [
-            "ES256"
-          ],
-          "kb-jwt_alg_values": [
-            "ES256"
-          ]
-        }
-      },
+      "id": "6aa0ac61-6535-46c2-924d-65fccfe65f4f",
       "constraints": {
+        "limit_disclosure": "required",
         "fields": [
           {
             "path": [
@@ -39,42 +30,18 @@
           },
           {
             "path": [
-              "$.birthdate"
+              "$.address.street_address"
             ]
           },
           {
             "path": [
-              "$.address"
-            ]
-          },
-          {
-            "path": [
-              "$.nationalities"
-            ]
-          },
-          {
-            "path": [
-              "$.place_of_birth"
-            ]
-          },
-          {
-            "path": [
-              "$.birth_family_name"
-            ]
-          },
-          {
-            "path": [
-              "$.issuing_country"
-            ]
-          },
-          {
-            "path": [
-              "$.issuing_authority"
+              "$.age_equal_or_over.18"
             ]
           }
-        ],
-        "limit_disclosure": "required"
-      }
+        ]
+      },
+      "name": "Identity",
+      "purpose": "We need your identity information."
     }
   ]
 }
